@@ -12,3 +12,4 @@ else
     SUM=$(($NUM2-$NUM1))
     echo "$NUM2 is greater then $NUM1"
     echo "SUB of $NUM2 and $NUM1 is $SUM"
+fi

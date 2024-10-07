@@ -7,9 +7,9 @@ if [ $NUM1 -gt $NUM2 ]
 then
     SUB=$(($NUM1-$NUM2))
     echo "$NUM1 is greater then $NUM2"
-    echo "SUB of $NUM1 and $NUM2 is $SUM"
+    echo "SUB of $NUM1 and $NUM2 is $SUB"
 else
     SUM=$(($NUM2-$NUM1))
     echo "$NUM2 is greater then $NUM1"
-    echo "SUB of $NUM2 and $NUM1 is $SUM"
+    echo "SUB of $NUM2 and $NUM1 is $SUB"
 fi

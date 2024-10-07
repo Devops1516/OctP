@@ -8,13 +8,13 @@ then
     exit 1
 fi
 
-yum list installed git
+yum list installed java
 
 if [ $? -eq 0 ]
 then 
     echo "git is already installed"
 else
-    yum install git -y
+    yum install java -y
     if [ $? -eq 0 ]
     then
         echo " your software is installed succesfully"
